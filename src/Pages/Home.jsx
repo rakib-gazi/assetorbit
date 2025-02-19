@@ -4,6 +4,7 @@ import About from '../Components/About';
 import Choose from '../Components/Choose';
 import Pricing from '../Components/Pricing';
 import { Helmet } from 'react-helmet';
+import NewsLetter from '../Components/NewsLetter';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <About></About>
             <Choose></Choose>
             <Pricing></Pricing>
+            <NewsLetter></NewsLetter>
         </div>
     );
 };
